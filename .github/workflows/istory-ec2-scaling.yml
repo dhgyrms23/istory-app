@@ -8,9 +8,9 @@ permissions:
 
 on:
   push:
-    branches: [ "test"]
+    branches: [ "main"]
     paths:
-      - 'xinfra/ec2-scaling/**'
+      - 'xinfra/ec2-single/**'
       - '.github/workflows/istory-ec2-scaling.yml'
       - 'scripts/**'
       - 'appspec.yml'
